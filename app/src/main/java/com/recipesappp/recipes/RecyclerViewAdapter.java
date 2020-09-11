@@ -70,9 +70,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         public MyHolder(View itemView) {
             super(itemView);
 
-            recipeTitle = (TextView)itemView.findViewById(R.id.recipe_text);
-            img_recipe_thumbnail = (ImageView)itemView.findViewById(R.id.recipe_img_id);
-            cardView = (CardView)itemView.findViewById(R.id.cardview_id);
+            recipeTitle = itemView.findViewById(R.id.recipe_text);
+            img_recipe_thumbnail = itemView.findViewById(R.id.recipe_img_id);
+            cardView = itemView.findViewById(R.id.cardview_id);
 
 
         }
