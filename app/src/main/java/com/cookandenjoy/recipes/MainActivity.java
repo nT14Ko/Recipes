@@ -1,4 +1,4 @@
-package com.recipesappp.recipes;
+package com.cookandenjoy.recipes;
 
 import android.os.Bundle;
 
