@@ -11,7 +11,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    RecyclerView myrecyclerView;
+    RecyclerView myRecyclerView;
     RecyclerViewAdapter myAdapter;
 
     List<Recipes> recipes1;
@@ -92,13 +92,13 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        myrecyclerView = findViewById(R.id.recyclerView_id);
+        myRecyclerView = findViewById(R.id.recyclerView_id);
 
         myAdapter = new RecyclerViewAdapter(this,recipes1);
 
-        myrecyclerView.setLayoutManager(new GridLayoutManager(this,1));
+        myRecyclerView.setLayoutManager(new GridLayoutManager(this,1));
 
-        myrecyclerView.setAdapter(myAdapter);
+        myRecyclerView.setAdapter(myAdapter);
 
 
 
